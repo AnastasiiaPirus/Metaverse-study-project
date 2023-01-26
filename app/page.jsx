@@ -7,7 +7,7 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 
 export default function Page() {
   return (
-    <div>
+    <div className='bg-primary-black overflow-hidden'>
     <Navbar />
     <Hero />
     <About />
